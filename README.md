@@ -75,17 +75,6 @@ ROC curve, actual vs. predicted label distributions, top logistic regression coe
 - **Processing:** PySpark, Spark ML (Pipelines, StringIndexer, OneHotEncoder, VectorAssembler, MinMaxScaler, LogisticRegression, CrossValidator)
 - **Analysis/Viz:** Python, Pandas, Matplotlib, Seaborn
 
-## Repository Structure
-nyc-taxi-tip-prediction/
-├── README.md
-├── src/
-│ ├── 01_data_acquisition.py
-│ ├── 02_eda.py
-│ ├── 03_data_cleaning.py
-│ ├── 04_feature_engineering_modeling.py
-│ └── 05_visualization.py
-└── docs/
-
 ## Future Work
 
 - Experiment with Gradient Boosting or Random Forest classifiers
