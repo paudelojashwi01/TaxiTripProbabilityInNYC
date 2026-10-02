@@ -38,7 +38,7 @@ Run on a single-node Dataproc cluster. Surfaces key data quality issues:
 
 ![Distribution of trip_distance, total_amount, and trip_duration showing heavy positive skew](images/eda_distribution_skew.png)
 
-Core monetary and duration fields were all heavily right-skewed — most rides are short, cheap, and quick, with a long tail of outliers. This is what motivated the log-transform step in feature engineering below.
+Core monetary and duration fields were all heavily right-skewed, most rides are short, cheap, and quick, with a long tail of outliers. This is what motivated the log-transform step in feature engineering below.
 
 ### 3. Data Cleaning (`src/03_data_cleaning.py`)
 
